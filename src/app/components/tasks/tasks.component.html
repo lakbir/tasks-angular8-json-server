@@ -9,7 +9,7 @@
   </div>
 </div>
 <div class="row" *ngIf="showForm">
-  <div class="col-md-6 mx-auto">
+  <div class="col-md-8 mx-auto">
     <div class="form-group">
       <label for="label">Label</label>
       <input id="label" type="text" [(ngModel)]="myTask.label" class="form-control" placeholder="Title of task">
@@ -31,7 +31,7 @@
 </div>
 </div>
 <div class="row">
-  <div class="col-md-6 mx-auto">
+  <div class="col-md-8 mx-auto">
 
     <input type="text" (keyup)="searchTasks()" class="form-control" placeholder="Search..." [(ngModel)]="mcSearch">
 
